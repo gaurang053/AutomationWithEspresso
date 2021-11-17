@@ -1,0 +1,17 @@
+#Scenario
+End user can search city by city name
+
+#Description
+End user search city by city name
+
+#Pre-requisite
+App is install in the device or Simulators
+
+#Test Steps
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Type 'Utrecht' into search field and wait for result is display
+4 - Only match record should display in the list
+
+#Expected Result
+App should show only match result, in this case 'Utrecht'

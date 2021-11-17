@@ -1,0 +1,14 @@
+#Scenario
+Uninstall the app
+
+#Description
+End user can delete the app
+
+#Pre-requisite
+App is install in the device or Simulators and device is running
+
+#Steps
+1 - Uninstall the app from the device
+
+#Expected Result
+End user should not face any issue and the app can be uninstalled without any issue

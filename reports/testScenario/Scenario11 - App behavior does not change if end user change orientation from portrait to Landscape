@@ -1,0 +1,19 @@
+#Scenario
+App behavior does not change if end user change orientation from portrait to Landscape
+
+#Description
+End user see the same result if it change the orientation from portrait to landscape
+
+#Pre-requisite
+App is install in the device or Simulators
+
+#Test Steps
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Switch to landscape orientation and still the app is working normally
+4 - Switch to portrait mode
+5 - Click on any city and see the map is loaded
+6 - Switch to landscape orientation and still the app is working normally
+
+#Expected Result
+App should run normally and still, it show same list in landscape mode

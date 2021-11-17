@@ -1,0 +1,20 @@
+#Scenario
+Search result should not change with Upper or Lower case character
+
+#Description
+End user see the same result when he/she used upper or lower case character
+
+#Pre-requisite
+App is install in the device or Simulators
+
+#Test Steps
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Type 'UTRECHT' into search field and wait for result is display
+4 - Save search result1
+5 - Type 'utrecht' into search field and wait for result is display
+6 - Save search result2
+7 - Save result1 match with result2
+
+#Expected Result
+App should show same result for upper and lower case

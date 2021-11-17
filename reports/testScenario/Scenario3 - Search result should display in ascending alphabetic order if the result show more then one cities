@@ -1,0 +1,20 @@
+#Scenario
+Search result should display in ascending alphabetic order if the result show more then one cities
+
+
+#Descritpion
+If end user choose to filter the record by entrying valude then the filtered city list should display in alphabetic ascending order
+
+#Pre-requisite
+App is install in the device or Simulators
+
+#Test Steps
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Listed cities should be display in ascending order
+4 - Type 'Utrecht' into search field and wait for result is display
+5 - All the search result should display in alphabetic ascending order
+
+
+#Expected Result
+App should display list of cities in ascending order in any conditions

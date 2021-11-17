@@ -1,0 +1,18 @@
+#Scenario
+End user can manually search the city by scrolling the list up and down
+
+#Descritpion
+End user choose to scroll up and down to search the specific city
+
+#Pre-requisite
+App is install in the device or Simulators
+
+#Test Steps
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Listed cities should be display in ascending order
+4 - Scroll down to find the list of city start with char 'z'
+5 - Scroll up to find the list of city start with char 'a'
+
+#Expected Result
+End user can scroll up and down to see the different cities

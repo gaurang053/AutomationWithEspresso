@@ -1,0 +1,24 @@
+#Title
+End user fails to locate city in map
+
+#Env        - Pixel 4XL, Android 9
+
+#Severity   - Critical
+
+#Priority   - High
+
+#Steps to reproduce
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Type 'Utrecht' into search field and wait for result is display
+4 - Click on 'Utrecht, NL' and wait for map page to load
+Issue - Maps are not loading properly
+
+#Expected Result
+The Hague, NL city is shown on the map
+
+#Actual Result
+Map is not loading properly
+
+#Comment
+N/A

@@ -1,0 +1,22 @@
+#Title
+App crash when orientation change to landscape
+
+#Env        - Pixel 4XL, Android 9
+
+#Severity   - Low
+
+#Priority   - Low
+
+#Steps to reproduce
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Change the orientation to landscape
+    
+#Expected Result
+App should not crash in any circumstances.
+
+#Actual Result
+App is crashing while changing the orientation
+
+#Comment
+N/A

@@ -1,0 +1,23 @@
+#Title
+Failed to search city with city name and country code
+
+#Env        - Pixel 4XL, Android 9
+
+#Severity   - High
+
+#Priority   - Medium
+
+#Steps to reproduce
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Type 'Utrecht, NL' into search field and wait for result is display
+4 - Only match record should display in the list
+
+#Expected Result
+Utrecht, NL city is not display
+
+#Actual Result
+Utrecht, NL city should display
+
+#Comment
+Suggestion - End user can search with 'Utrecht' or 'NL' or 'Utrecht, NL'

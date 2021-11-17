@@ -1,0 +1,17 @@
+#Scenario
+App should not display duplicate city name in the city list
+
+#Description
+App should not display duplicate city name in the city list
+
+#Pre-requisite
+App is install in the device or Simulators
+
+#Steps to reproduce
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Type 'Utrecht' into search field and wait for result is display '
+4 - City list should be filtered and only the matching city and country code should display
+
+#Expected Result
+Search city list should display only matching cities with the same name and country`

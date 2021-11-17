@@ -1,0 +1,24 @@
+#Title
+Cities are not arrange in ascending alphabetic order
+
+#Env        - Pixel 4XL, Android 9
+
+#Severity   - Low
+
+#Priority   - Low
+
+#Steps to reproduce
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Issue - City list is not in ordered,
+Suggestion - End user lose interested in app if he has to spent lot of time to identify a unique values
+
+
+#Expected Result
+City list should be in alphabetic order
+
+#Actual Result
+Cities are not order alphabetically.
+
+#Comment
+N/A

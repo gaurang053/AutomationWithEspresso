@@ -1,0 +1,23 @@
+#Title
+City list contains duplicate city name
+
+#Env        - Pixel 4XL, Android 9
+
+#Severity   - High
+
+#Priority   - High
+
+#Steps to reproduce
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - List has many duplicate values , Please contact Test team to know the entire list of duplicate values
+
+
+#Expected Result
+City list should not contain any duplicate city name
+
+#Actual Result
+All distinct city should be displayed
+
+#Comment
+N/A

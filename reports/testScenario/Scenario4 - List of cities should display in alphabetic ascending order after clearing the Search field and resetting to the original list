@@ -1,0 +1,20 @@
+#Scenario
+List of cities should display in alphabetic ascending order after clearing the Search field and resetting to the original list
+
+#Descritpion
+List of cities should display in alphabetic ascending order even after the end user clean the search result and resetting back to the original result
+
+#Pre-requisite
+App is install in the device or Simulators
+
+#Test Steps
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Listed cities should be display in ascending order
+4 - Type 'Utrecht' into search field and wait for result is display
+5 - All the search result should display in alphabetic ascending order
+6 - Clean the search field and wait for result reset to the original list
+6 - Listed cities should be display in ascending order
+
+#Expected Result
+App should display list of cities in ascending order in any conditions

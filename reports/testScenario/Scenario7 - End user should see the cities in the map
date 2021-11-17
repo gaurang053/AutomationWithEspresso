@@ -1,0 +1,17 @@
+#Scenario
+End user should see the cities in the map
+
+#Description
+End user select any city which will display the location in the map
+
+#Pre-requisite
+App is install in the device or Simulators
+
+#Test Steps
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Type 'Utrecht' into search field and wait for result is display
+4 - Click on 'Utrecht, NL' and wait for map page to load
+
+#Expected Result
+Utrecht city is show on the map page

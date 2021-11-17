@@ -1,0 +1,16 @@
+#Scenario
+Check if the app is not crashing after installing
+
+#Descritpion
+App should not show any unexpected error or it should not crash after launching
+
+#Pre-requisite
+App is install in the device or Simulators
+
+#Test Steps
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - The app should not unexpectedly close or throw any error message display
+
+#Expected Result
+App should display home page with no error or exception

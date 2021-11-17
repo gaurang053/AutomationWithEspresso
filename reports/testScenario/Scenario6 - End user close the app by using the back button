@@ -1,0 +1,19 @@
+#Scenario
+End user close the app by using the back button
+
+#Description
+Back button returns from any page back to close application
+
+#Pre-requisite
+App is install in the device or Simulators
+
+#Test Steps
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Type 'Utrecht' into search field and wait for result is display
+4 - Click on 'Utrecht, NL' and wait for map page to load
+5 - Click back button and list of cities display
+6 - Click back button again and app will close
+
+#Expected Result
+App should be closed by clicking back button

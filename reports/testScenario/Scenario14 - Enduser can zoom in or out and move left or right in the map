@@ -1,0 +1,19 @@
+#Scenario
+End user can zoom in or out and move left or right in the map
+
+#Description
+End user can interact and zoom in or out , move left or right in the map
+
+#Pre-requisite
+App is install in the device or Simulators
+
+#Test Steps
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Type 'Utrecht' into search field and wait for result is display
+4 - Click on 'Utrecht, NL' and wait for map page to load
+5 - Try to move a map left or right
+6 - Try to zoom in or out the map
+
+#Expected Result
+Search city list should display only matching cities with the same name and country

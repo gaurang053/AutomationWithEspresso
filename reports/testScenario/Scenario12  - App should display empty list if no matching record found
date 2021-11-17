@@ -1,0 +1,17 @@
+#Scenario
+App should display empty list if End user try to search with city which does not exist
+
+#Description
+App should display empty list if End user search with text NOCITY
+
+#Pre-requisite
+App is install in the device or Simulators
+
+#Steps to reproduce
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Type 'NOCITY' into search field and wait for result is display '
+4 - Result should be empty
+
+#Expected Result
+Search result list should be empty

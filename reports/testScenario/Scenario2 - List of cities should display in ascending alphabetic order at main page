@@ -1,0 +1,16 @@
+#Scenario
+List of cities should display in ascending alphabetic order at main page
+
+#Descritpion
+All cities at main page should be display in ascending alphabetic order
+
+#Pre-requisite
+App is install in the device or Simulators
+
+#Test Steps
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Listed cities should be display in ascending order
+
+#Expected Result
+App should display list of cities in ascending order in any conditions

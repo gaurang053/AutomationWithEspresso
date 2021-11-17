@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.test.tests.ScrollCityList" tests="9" failures="3" errors="0" skipped="0" time="65.05" timestamp="2021-10-22T15:48:30" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_4_XL_API_28(AVD) - 9" />
+    <property name="flavor" value="" />
+    <property name="project" value="app" />
+  </properties>
+  <testcase name="validateIfUserCanScrollCityList" classname="com.test.tests.ScrollCityList" time="8.702" />
+  <testcase name="validateListIsScrollableAfterSettingVale" classname="com.test.tests.ScrollCityList" time="10.709" />
+  <testcase name="isCitiesAreSortedInAlphabeticOrder" classname="com.test.tests.SortingCityList" time="3.231">
+    <failure>junit.framework.AssertionFailedError: City list should be ordered alphabetically
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at com.test.tests.SortingCityList.isCitiesAreSortedInAlphabeticOrder(SortingCityList.java:16)
+</failure>
+  </testcase>
+  <testcase name="isCitiesAreSortedInAlphabeticOrderWithSearchText" classname="com.test.tests.SortingCityList" time="4.82" />
+  <testcase name="SearchWithCityWhichDoesNotExists" classname="com.test.tests.ValidateCityFilter" time="7.296" />
+  <testcase name="SearchCityWithCityNameAndCityInitial" classname="com.test.tests.ValidateCityFilter" time="7.577">
+    <failure>junit.framework.AssertionFailedError: city list should not be empty expected:&lt;1&gt; but was:&lt;0&gt;
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.failNotEquals(Assert.java:287)
+at junit.framework.Assert.assertEquals(Assert.java:67)
+at junit.framework.Assert.assertEquals(Assert.java:199)
+at com.test.tests.ValidateCityFilter.SearchCityWithCityNameAndCityInitial(ValidateCityFilter.java:38)
+</failure>
+  </testcase>
+  <testcase name="searchCityWithCitName" classname="com.test.tests.ValidateCityFilter" time="5.249" />
+  <testcase name="searchCityWithCaseSensitive" classname="com.test.tests.ValidateCityFilter" time="6.531" />
+  <testcase name="listShouldNotHaveAnyDuplicateCityName" classname="com.test.tests.ValidateCityList" time="3.362">
+    <failure>junit.framework.AssertionFailedError: Compare city list for duplicate expected:&lt;209557&gt; but was:&lt;168801&gt;
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.failNotEquals(Assert.java:287)
+at junit.framework.Assert.assertEquals(Assert.java:67)
+at junit.framework.Assert.assertEquals(Assert.java:199)
+at com.test.tests.ValidateCityList.listShouldNotHaveAnyDuplicateCityName(ValidateCityList.java:20)
+</failure>
+  </testcase>
+</testsuite>

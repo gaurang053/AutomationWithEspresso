@@ -1,0 +1,22 @@
+#Title
+App crash in PIXEL, XL API 29 with Android 10
+
+#Env        - Pixel XL API 29, Android 10
+
+#Severity   - High
+
+#Priority   - High
+
+#Steps to reproduce
+1 - Lunch the app
+2 - Wait for page to load the list of cities
+3 - Issue - App crash
+
+#Expected Result
+App should not crash in any circumstances.
+
+#Actual Result
+App is crashing during landing to home page
+
+#Comment
+N/A
